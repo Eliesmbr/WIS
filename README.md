@@ -8,7 +8,7 @@ Script using winget for easy windows setup
 
 To add a new program you have to add a new entry to the array inside its JSON file.
 
-Said object must follow this model
+Said object must follow this model:
 
 ```json
 {

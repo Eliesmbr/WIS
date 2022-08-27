@@ -1,6 +1,6 @@
 Write-Host "Uninstalling Windows shit"
 
-foreach ($line in Get-Content $PSSCriptRoot\Uninstall.txt) {
+foreach ($line in Get-Content $PSSCriptRoot\Uninstall.txt) { # use this file for packages
     if ($line.contains("#")) {
         continue
     }
