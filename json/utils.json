@@ -9,42 +9,66 @@
         "mode": "id",
         "identifier": "Discord.Discord",
         "source": "winget",
-        "scope": "machine"
-    },
-    {
-        "mode": "id",
-        "identifier": "Mozilla.Firefox",
-        "source": "winget",
-        "scope": "machine"
+        "scope": "user"
     },
     {
         "mode": "id",
         "identifier": "Google.Chrome",
         "source": "winget",
-        "scope": "machine"
-    },
-    {
-        "mode": "id",
-        "identifier": "flux.flux",
-        "source": "winget",
-        "scope": "machine"
+        "scope": "user"
     },
     {
         "mode": "id",
         "identifier": "RARLab.WinRAR",
         "source": "winget",
-        "scope": "machine"
+        "scope": "user"
     },
     {
         "mode": "id",
-        "identifier": "9WZDNCRFJ3TJ", //netflix
+        "identifier": "AgileBits.1Password",
         "source": "winget",
         "scope": "user"
     },
     {
         "mode": "id",
-        "identifier": "Corsair.iCUE",
+        "identifier": "7zip.7zip",
         "source": "winget",
-        "scope": "machine"
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "IrfanSkiljan.IrfanView",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "MullvadVPN.MullvadVPN",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "OBSProject.OBSStudio",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "VideoLAN.VLC",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "XnSoft.XnView.Classic",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Logitech.GHUB",
+        "source": "winget",
+        "scope": "user"
     }
 ]

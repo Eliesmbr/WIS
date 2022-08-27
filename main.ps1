@@ -14,7 +14,7 @@ $gpus = Get-WmiObject -Class Win32_VideoController | Select-Object -Property Des
 Write-Host "Installing GPU driver assistant"
 foreach ($gpu in $gpus) {
     if ($gpu -match "NVIDIA") {
-        winget install --id Nvidia.GeForceExperience -e 
+        Write-host "Nvidia driver must be installed manually" 
     }
     elseif ($gpu -match "AMD") {
         Write-host "Driver for AMD GPUs not found"
