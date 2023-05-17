@@ -33,7 +33,7 @@ Get-ChildItem -Recurse -Filter *.json | Foreach-Object {
                 $id = $_.identifier
                 $source = $_.source
                 $scope = $_.scope
-                winget.exe install --$mode $id -e -s $source --scope $scope --accept-package-agreements --accept-source-agreements --force
+                winget.exe install --$mode $id -e -s $source --accept-package-agreements --accept-source-agreements --force
             }
         }
     }
